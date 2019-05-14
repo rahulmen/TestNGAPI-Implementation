@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG API Implementation">
+    <test name="Group Smoke Implementation" thread-count="3" parallel="methods">
+        <parameter name ="theme" value="enhancedWebSmoke"/>
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name ="scripts.ClassDemoTest"/>
+        </classes>
+    </test>
+    <test name="Group Sanity Implementation" thread-count="3" parallel="methods">
+        <parameter name ="theme" value="enhancedWebSanity"/>
+        <groups>
+            <run>
+                <include name="Sanity"/>
+            </run>
+        </groups>
+        <classes>
+            <class name ="scripts.ClassDemoTest"/>
+        </classes>
+    </test>
+        <!--<groups>-->
+            <!--&lt;!&ndash;<define name="Combination">&ndash;&gt;-->
+                <!--&lt;!&ndash;<include name="Sanity"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;<include name="Smoke"/>&ndash;&gt;-->
+            <!--&lt;!&ndash;</define>&ndash;&gt;-->
+            <!--<run>-->
+                <!--<include name="Smoke"/>-->
+                <!--<exclude name="Sanity"/>-->
+                <!--<exclude name="Regression"/>-->
+                <!--&lt;!&ndash;<include name="Combination"/>&ndash;&gt;-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<packages>-->
+            <!--<package name="scripts"/>-->
+        <!--</packages>-->
+
+    <!--<test name="Group Sanity Implementation" thread-count="3" parallel="methods">-->
+        <!--<parameter name ="theme" value="enhancedWebSanity123"/>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="Sanity"/>-->
+                <!--<include name="Smoke"/>-->
+                <!--<include name="Regression"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<packages>-->
+            <!--<package name="scripts"/>-->
+        <!--</packages>-->
+    <!--</test>-->
+</suite>
