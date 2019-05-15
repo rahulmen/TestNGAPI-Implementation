@@ -44,18 +44,6 @@ public class TestNGAPIImplementation7 {
 		return xmlSuite;
 	}
 
-	/*
-
-	private static List<XmlSuite> linkTestSuite(XmlTest xmlTest,XmlSuite xmlSuite){
-		List<XmlTest> list2 = new ArrayList<XmlTest>();
-		list2.add(xmlTest);
-		xmlSuite.setTests(list2);
-		List<XmlSuite> list3 = new ArrayList<XmlSuite>();
-		list3.add(xmlSuite);
-		return list3;
-	}
-
-*/
 
 	private static List<XmlSuite> linkTestSuites(List<XmlTest> xmlTest,XmlSuite xmlSuite){
 		xmlSuite.setTests(xmlTest);
@@ -81,18 +69,29 @@ public class TestNGAPIImplementation7 {
 	        String token = stringTokenizer.nextToken();
 	        String[] splittoken = token.split(":");
 			XmlTest xmlTest = new XmlTest();
+			XmlGroups xmlGroups = new XmlGroups();
 
 			for(int str1=0;str1<splittoken.length;str1++){
 
-                if(!(splittoken[str1].equals("merchant4")||splittoken[str1].equals("enhancedWeb")||splittoken[str1].equals("enhancedWap"))) {
+                if(!(splittoken[str1].equalsIgnoreCase("merchant4")||splittoken[str1].equalsIgnoreCase("enhancedWeb")||
+						splittoken[str1].equalsIgnoreCase("enhancedWap"))) {
 					xmlTest = settingTest(xmlSuite,"Group "+splittoken[str1]+" Implementation");
-					XmlGroups xmlGroups = settingGroup(splittoken[str1]);
+                	if(splittoken[str1].contains(",")){
+                		StringTokenizer stringTokenizer1 = new StringTokenizer(splittoken[str1].toUpperCase(),",");
+                		while(stringTokenizer1.hasMoreTokens()){
+							xmlGroups = settingGroup(stringTokenizer1.nextToken());
+						}
+					}
+                	else{
+						xmlGroups = settingGroup(splittoken[str1].toUpperCase());
+					}
 					List<XmlClass> classes = settingClass();
 					xmlTest.setClasses(classes);
 					xmlTest.setGroups(xmlGroups);
                 }
 
-	            else if(splittoken[str1].equals("merchant4")||splittoken[str1].equals("enhancedWeb")||splittoken[str1].equals("enhancedWap")||splittoken[str1].contains(",")){
+	            else if(splittoken[str1].equalsIgnoreCase("merchant4")||splittoken[str1].equalsIgnoreCase("enhancedWeb")
+						||splittoken[str1].equalsIgnoreCase("enhancedWap")){
 					setTestParameter(xmlTest,splittoken[str1]);
 	            }
 
@@ -111,12 +110,6 @@ public class TestNGAPIImplementation7 {
         tng.run();
 
         }
-
-/*
-		Constructor<TestNGAPIImplementation4> constructor = TestNGAPIImplementation4.class.getDeclaredConstructor();
-		constructor.setAccessible(true);
-		TestNGAPIImplementation4 testNGAPIImplementation4=constructor.newInstance();
-*/
 
 	}
 

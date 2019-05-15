@@ -7,15 +7,15 @@ import org.testng.annotations.Test;
 public class ClassDemoTest {
 
 	@Parameters({"theme"})
-	@Test(groups={"Sanity"})
+	@Test(groups={"SANITY"})
 	public void method1(@Optional("default") String theme){
-		System.out.println("Theme Passed Sanity:"  + theme);
+		System.out.println("Theme Passed SANITY:"  + theme);
 	}
 
 	@Parameters({"theme"})
-	@Test(groups={"Smoke"})
+	@Test(groups={"SMOKE"})
 	public void method2(@Optional("default") String theme){
-		System.out.println("Theme Passed Smoke:"  + theme);
+		System.out.println("Theme Passed SMOKE:"  + theme);
 	}
 
 	@Parameters({"theme"})
@@ -25,31 +25,31 @@ public class ClassDemoTest {
 	}
 
 	@Parameters("theme")
-	@Test(groups={"Sanity","Smoke"})
+	@Test(groups={"SANITY","SMOKE"})
 	public void method4(@Optional("default") String theme){
-		System.out.println("Theme Passed Sanity and Smoke :"  + theme);
+		System.out.println("Theme Passed SANITY and SMOKE :"  + theme);
 	}
 
 	@Parameters({"theme"})
-	@Test(groups={"Smoke","Sanity","Regression"})
+	@Test(groups={"SMOKE","SANITY","REGRESSION"})
 	public void method5(@Optional("default") String theme)
 	{
-		System.out.println("Theme Passed Smoke,Sanity and Regression:"  + theme);
+		System.out.println("Theme Passed SMOKE,SANITY and REGRESSION:"  + theme);
 	}
 
 	@Parameters({"theme"})
-	@Test(groups={"Sanity","Regression"})
+	@Test(groups={"SANITY","REGRESSION"})
 	public void method6(@Optional("default") String theme)
 	{
-		System.out.println("Theme Passed Sanity and Regression:"  + theme);
+		System.out.println("Theme Passed SANITY and REGRESSION:"  + theme);
 	}
 
 
 	@Parameters({"theme"})
-	@Test(groups={"Smoke","Regression"})
+	@Test(groups={"SMOKE","REGRESSION"})
 	public void method7(@Optional("default") String theme)
 	{
-		System.out.println("Theme Passed Smoke and Regression:"  + theme);
+		System.out.println("Theme Passed SMOKE and REGRESSION:"  + theme);
 	}
 
 }

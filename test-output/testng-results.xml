@@ -1,120 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="6" total="14" passed="8">
+<testng-results skipped="0" failed="0" ignored="7" total="14" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNG API Implementation" duration-ms="151" started-at="2019-05-14T11:39:43Z" finished-at="2019-05-14T11:39:43Z">
+  <suite name="TestNG API Implementation" duration-ms="30" started-at="2019-05-14T12:42:43Z" finished-at="2019-05-14T12:42:43Z">
     <groups>
-      <group name="Sanity">
-        <method signature="ClassDemoTest.method1(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method1" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method4" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method5" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method6" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method4" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method5" class="scripts.ClassDemoTest"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method5" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method6" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method5" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method7(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method7" class="scripts.ClassDemoTest"/>
-      </group> <!-- Regression -->
-      <group name="Smoke">
-        <method signature="ClassDemoTest.method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method4" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method5" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method2(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method2" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method4" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method5" class="scripts.ClassDemoTest"/>
-        <method signature="ClassDemoTest.method7(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method7" class="scripts.ClassDemoTest"/>
-      </group> <!-- Smoke -->
+      <group name="REGRESSION">
+        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method5" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method6" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method7(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method7" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method5" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method6" class="scripts.ClassDemoTest"/>
+      </group> <!-- REGRESSION -->
+      <group name="SANITY">
+        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method5" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method6" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method1(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method1" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method4" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method5" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method6" class="scripts.ClassDemoTest"/>
+      </group> <!-- SANITY -->
+      <group name="SMOKE">
+        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method5" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method7(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method7" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method4" class="scripts.ClassDemoTest"/>
+        <method signature="ClassDemoTest.method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method5" class="scripts.ClassDemoTest"/>
+      </group> <!-- SMOKE -->
     </groups>
-    <test name="Group Sanity Implementation" duration-ms="84" started-at="2019-05-14T11:39:43Z" finished-at="2019-05-14T11:39:43Z">
+    <test name="Group sanity,regression Implementation" duration-ms="17" started-at="2019-05-14T12:42:43Z" finished-at="2019-05-14T12:42:43Z">
       <class name="scripts.ClassDemoTest">
-        <test-method status="PASS" signature="method1(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method1" duration-ms="17" started-at="2019-05-14T17:09:43Z" finished-at="2019-05-14T17:09:43Z">
+        <test-method status="PASS" signature="method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method5" duration-ms="3" started-at="2019-05-14T18:12:43Z" finished-at="2019-05-14T18:12:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[enhancedWeb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method4" duration-ms="0" started-at="2019-05-14T17:09:43Z" finished-at="2019-05-14T17:09:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[enhancedWeb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method4 -->
-        <test-method status="PASS" signature="method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method5" duration-ms="0" started-at="2019-05-14T17:09:43Z" finished-at="2019-05-14T17:09:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[enhancedWeb]]>
+                <![CDATA[enhancedweb]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method5 -->
-        <test-method status="PASS" signature="method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@7a1ebcd8]" name="method6" duration-ms="0" started-at="2019-05-14T17:09:43Z" finished-at="2019-05-14T17:09:43Z">
+        <test-method status="PASS" signature="method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method6" duration-ms="0" started-at="2019-05-14T18:12:43Z" finished-at="2019-05-14T18:12:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[enhancedWeb]]>
+                <![CDATA[enhancedweb]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method6 -->
-      </class> <!-- scripts.ClassDemoTest -->
-    </test> <!-- Group Sanity Implementation -->
-    <test name="Group Smoke Implementation" duration-ms="18" started-at="2019-05-14T11:39:43Z" finished-at="2019-05-14T11:39:43Z">
-      <class name="scripts.ClassDemoTest">
-        <test-method status="PASS" signature="method2(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method2" duration-ms="0" started-at="2019-05-14T17:09:43Z" finished-at="2019-05-14T17:09:43Z">
+        <test-method status="PASS" signature="method7(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@5ccd43c2]" name="method7" duration-ms="0" started-at="2019-05-14T18:12:43Z" finished-at="2019-05-14T18:12:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[merchant4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method4" duration-ms="0" started-at="2019-05-14T17:09:43Z" finished-at="2019-05-14T17:09:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[merchant4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method4 -->
-        <test-method status="PASS" signature="method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method5" duration-ms="0" started-at="2019-05-14T17:09:43Z" finished-at="2019-05-14T17:09:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[merchant4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- method5 -->
-        <test-method status="PASS" signature="method7(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@37d31475]" name="method7" duration-ms="0" started-at="2019-05-14T17:09:43Z" finished-at="2019-05-14T17:09:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[merchant4]]>
+                <![CDATA[enhancedweb]]>
               </value>
             </param>
           </params>
@@ -122,6 +62,54 @@
           </reporter-output>
         </test-method> <!-- method7 -->
       </class> <!-- scripts.ClassDemoTest -->
-    </test> <!-- Group Smoke Implementation -->
+    </test> <!-- Group sanity,regression Implementation -->
+    <test name="Group smoke,sanity Implementation" duration-ms="3" started-at="2019-05-14T12:42:43Z" finished-at="2019-05-14T12:42:43Z">
+      <class name="scripts.ClassDemoTest">
+        <test-method status="PASS" signature="method1(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method1" duration-ms="0" started-at="2019-05-14T18:12:43Z" finished-at="2019-05-14T18:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enhancedwap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method4(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method4" duration-ms="0" started-at="2019-05-14T18:12:43Z" finished-at="2019-05-14T18:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enhancedwap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method5(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method5" duration-ms="1" started-at="2019-05-14T18:12:43Z" finished-at="2019-05-14T18:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enhancedwap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method5 -->
+        <test-method status="PASS" signature="method6(java.lang.String)[pri:0, instance:scripts.ClassDemoTest@136432db]" name="method6" duration-ms="0" started-at="2019-05-14T18:12:43Z" finished-at="2019-05-14T18:12:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enhancedwap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method6 -->
+      </class> <!-- scripts.ClassDemoTest -->
+    </test> <!-- Group smoke,sanity Implementation -->
   </suite> <!-- TestNG API Implementation -->
 </testng-results>
