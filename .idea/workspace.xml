@@ -2,29 +2,68 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="jar://$PROJECT_DIR$/testng-6.11.jar!/org/testng/xml/XmlTest.class" description="public int getVerbose() {" line="0" />
-    <bookmark url="jar://$MAVEN_REPOSITORY$/com/paytm/autumn/autumn/1.1.0/autumn-1.1.0.jar!/com/paytm/framework/ui/element/UIElement.class" description="this.report.info(&quot;Click [&quot; + this.elementName + &quot;]..." line="0" />
-    <bookmark url="jar://$MAVEN_REPOSITORY$/com/paytm/autumn/autumn/1.1.0/autumn-1.1.0.jar!/com/paytm/framework/ui/element/UIElement.class" description="this.report.info(&quot;Click [&quot; + this.elementName + &quot;]..." line="0" />
     <bookmark url="file://$PROJECT_DIR$/../PGP_Automation/pgp_automation/src/main/java/com/paytm/pages/CashierPage.java" description="switch (payMode) {" line="909" />
     <bookmark url="file://$PROJECT_DIR$/../PGP_Automation/pgp_automation/src/main/java/com/paytm/pages/CashierPage.java" description="public void payBy(PayMode payMode, PaymentDTO paym..." line="850" />
     <bookmark url="file://$PROJECT_DIR$/../PGP_Automation/pgp_automation/src/main/java/com/paytm/pages/CashierPage.java" description="buttonPGPayNow().click();" line="712" />
+    <bookmark url="file://$PROJECT_DIR$/../PGP_Automation/pgp_automation/src/main/java/com/paytm/base/test/PGPBaseTest.java" description="private void setEnv(String browser, String platfor..." line="201" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ae06227-8940-4de6-b458-3db27cf51feb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Executor/TestNGException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/scripts/ClassDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scripts/ClassDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scripts/ClassDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scripts/Native/ClassDemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/scripts/ClassDemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/scripts/ClassDemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/scripts/ClassDemoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Executor/TestNGAPIImplementation7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Groups Based Configuration/XmlTest Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Groups Based Configuration/XmlTest Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Groups Based Configuration/default Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Groups Based Configuration/default Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Groups Based Configuration/enhancedweb Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Groups Based Configuration/enhancedweb Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Groups Based Configuration/enhancedweb Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Groups Based Configuration/enhancedweb Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Groups Based Configuration/enhnacedweb Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Groups Based Configuration/enhnacedweb Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Groups Based Configuration/sanity Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Groups Based Configuration/sanity Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Groups Based Configuration/smoke Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Groups Based Configuration/smoke Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Groups Based Configuration/xmlTest.setClasses(xmlClasses)_ Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Groups Based Configuration/xmlTest.setClasses(xmlClasses)_ Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Implementation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Implementation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Implementation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Sanity Implementation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Sanity Implementation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Sanity Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Sanity Implementation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Smoke Implementation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Smoke Implementation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Smoke Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Smoke Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Smoke,Sanity Implementation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Smoke,Sanity Implementation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Smoke,Sanity Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group Smoke,Sanity Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group ccwcwcwc Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group ccwcwcwc Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group enhancedWeb Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group enhancedWeb Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group enhancedWeb,enhancedWap Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group enhancedWeb,enhancedWap Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group enhnacedWeb Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group enhnacedWeb Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group sanity Implementation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group sanity Implementation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group sanity Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group sanity Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group sanity,regression Implementation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group sanity,regression Implementation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group sanity,regression Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group sanity,regression Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group smoke Implementation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group smoke Implementation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group smoke Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group smoke Implementation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group smoke,sanity Implementation.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group smoke,sanity Implementation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group smoke,sanity Implementation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/TestNG API Implementation/Group smoke,sanity Implementation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-ClassDemoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-ClassDemoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-scripts.ClassDemoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-scripts.ClassDemoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Groups Based Configuration/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Groups Based Configuration/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Groups Based Configuration/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Groups Based Configuration/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/Group Sanity Implementation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/Group Sanity Implementation.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/Group Smoke Implementation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/Group Smoke Implementation.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/Group sanity Implementation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/Group sanity Implementation.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/Group smoke,sanity Implementation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/Group smoke,sanity Implementation.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/groups.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/methods-alphabetical.html" afterDir="false" />
@@ -34,6 +73,7 @@
       <change beforePath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/TestNG API Implementation/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -52,18 +92,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scripts/ClassDemoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scripts/Native/ClassDemoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="105">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,12 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
-              <folding>
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#727#728#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1350">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -85,39 +115,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="e#232#233#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="915">
+              <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="63" column="72" lean-forward="true" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
+            <state relative-caret-position="120">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation8.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2475">
+              <caret line="179" selection-start-line="102" selection-end-line="179" />
               <folding>
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#1995#2004#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/testng-6.11.jar!/org/testng/xml/XmlSuite.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="185" column="16" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
-                <element signature="e#6043#6044#0" expanded="true" />
-                <element signature="e#6078#6079#0" expanded="true" />
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -125,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="101" selection-start-line="100" selection-end-line="110" />
+            <state relative-caret-position="840">
+              <caret line="100" selection-start-line="99" selection-end-line="109" />
               <folding>
                 <element signature="method#main#0;class#TestNGAPIImplementation5#0" />
               </folding>
@@ -137,43 +179,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/testng-6.11.jar!/org/testng/xml/XmlTest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="246" selection-start-line="246" selection-end-line="246" />
-              <folding>
-                <element signature="e#31171#31172#0" expanded="true" />
-                <element signature="e#31210#31211#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1335">
+              <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/testng-6.11.jar!/org/testng/TestRunner.class">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="135" selection-start-line="135" selection-end-line="135" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/testng-6.11.jar!/org/testng/SuiteRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/testng-6.11.jar!/org/testng/TestNG.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="1048" selection-start-line="1048" selection-end-line="1048" />
-              <folding>
-                <element signature="e#38779#38780#0" expanded="true" />
-                <element signature="e#38825#38826#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="330">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -194,8 +210,14 @@
       <find>a</find>
       <find>group</find>
       <find>Regression</find>
+      <find>XmlClass</find>
+      <find>settingClass</find>
+      <find>to</find>
+      <find>SANITY</find>
+      <find>class</find>
     </findStrings>
     <replaceStrings>
+      <replace>sanity</replace>
       <replace>REGRESSION</replace>
     </replaceStrings>
   </component>
@@ -210,14 +232,16 @@
         <option value="$PROJECT_DIR$/src/test/java/TestNGAPIImplementation2.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestNGAPIImplementation3.java" />
         <option value="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation3.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation2.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation5.java" />
         <option value="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation6.java" />
         <option value="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation4.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/scripts/ClassDemoTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation8.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Executor/TestNGException.java" />
         <option value="$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation7.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -260,7 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,7 +316,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Native" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comlearningTestNGAPI" type="b2602c69:ProjectViewProjectNode" />
@@ -334,6 +357,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,7 +366,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557840788652" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558435115089" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -372,14 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestNGAPIImplementation7">
-    <configuration name="TestNGAPIImplementation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Executor.TestNGAPIImplementation2" />
-      <module name="comlearningTestNGAPI" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestNGAPIImplementation8">
     <configuration name="TestNGAPIImplementation4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Executor.TestNGAPIImplementation4" />
       <module name="comlearningTestNGAPI" />
@@ -432,11 +449,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestNGAPIImplementation8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Executor.TestNGAPIImplementation8" />
+      <module name="comlearningTestNGAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Executor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClassDemoTest" type="TestNG" nameIsGenerated="true">
       <module name="comlearningTestNGAPI" />
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="scripts.ClassDemoTest" />
+      <option name="MAIN_CLASS_NAME" value="scripts.Native.ClassDemoTest" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="PARAMETERS" value="" />
@@ -453,11 +483,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestNGAPIImplementation8" />
+        <item itemvalue="Application.TestNGAPIImplementation4" />
         <item itemvalue="Application.TestNGAPIImplementation7" />
         <item itemvalue="Application.TestNGAPIImplementation6" />
-        <item itemvalue="Application.TestNGAPIImplementation4" />
         <item itemvalue="Application.TestNGAPIImplementation5" />
-        <item itemvalue="Application.TestNGAPIImplementation2" />
       </list>
     </recent_temporary>
   </component>
@@ -505,8 +535,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.273743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27853152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -514,16 +545,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33713356" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23127036" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29478827" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36482084" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.048859935" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17589577" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -546,21 +577,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation6.java</url>
-          <line>66</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation7.java</url>
-          <line>73</line>
+          <line>82</line>
           <properties />
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation8.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>stringTokenizer.hasMoreTokens()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>validTheme</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>validTheme.contains(splittoken[str1])</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>splittoken[str1].equalsIgnoreCase(&quot;merchant4&quot;)||splittoken[str1].equalsIgnoreCase(&quot;enhancedWeb&quot;)||
 						splittoken[str1].equalsIgnoreCase(&quot;enhancedWap&quot;)||splittoken[str1].contains(&quot;,&quot;)</expression-string>
@@ -592,21 +644,6 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>linkTestSuites(totaltest,xmlSuite)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>inkTestSuites(totaltest,xmlSuite)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>xmlTest</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -626,24 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="50" selection-start-line="52" selection-start-column="50" selection-end-line="52" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -683,10 +706,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scripts/Native/ClassDemoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="179" selection-start-line="102" selection-end-line="179" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="101" selection-start-line="100" selection-end-line="110" />
+        <state relative-caret-position="840">
+          <caret line="100" selection-start-line="99" selection-end-line="109" />
           <folding>
             <element signature="method#main#0;class#TestNGAPIImplementation5#0" />
           </folding>
@@ -695,62 +770,22 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/testng-6.11.jar!/org/testng/xml/XmlTest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="246" selection-start-line="246" selection-end-line="246" />
-          <folding>
-            <element signature="e#31171#31172#0" expanded="true" />
-            <element signature="e#31210#31211#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1335">
+          <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation4.java">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-          <folding>
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation6.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-          <folding>
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#727#728#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scripts/ClassDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Executor/TestNGAPIImplementation7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="63" column="72" lean-forward="true" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
-          <folding>
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#1995#2004#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

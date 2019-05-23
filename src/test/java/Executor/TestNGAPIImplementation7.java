@@ -2,7 +2,7 @@ package Executor;
 
 import org.testng.TestNG;
 import org.testng.xml.*;
-import scripts.ClassDemoTest;
+import scripts.Native.ClassDemoTest;
 
 import java.util.*;
 
@@ -36,6 +36,15 @@ public class TestNGAPIImplementation7 {
 		return list1;
 	}
 
+
+	private static List<XmlPackage> settingpackage(){
+		XmlPackage xmlPackage = new XmlPackage("*");
+		List<XmlPackage> list1 = new ArrayList<XmlPackage>();
+		list1.add(xmlPackage);
+		return list1;
+	}
+
+
 	private static XmlSuite getSuite(){
 		XmlSuite xmlSuite = new XmlSuite();
 		xmlSuite.setName("TestNG API Implementation");
@@ -53,7 +62,7 @@ public class TestNGAPIImplementation7 {
 	}
 
 
-	public static void main(String... args)  throws Exception{
+	public static void main(String... args){
 
 	    Scanner scan = new Scanner(System.in);
 	    System.out.print("Provide the group based theme to be executed: ");

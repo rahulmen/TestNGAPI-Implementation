@@ -9,7 +9,7 @@
             </run>
         </groups>
         <classes>
-            <class name ="scripts.ClassDemoTest"/>
+            <class name ="scripts.Native.ClassDemoTest"/>
         </classes>
     </test>
     <test name="Group Sanity Implementation" thread-count="3" parallel="methods">
@@ -19,9 +19,9 @@
                 <include name="Sanity"/>
             </run>
         </groups>
-        <classes>
-            <class name ="scripts.ClassDemoTest"/>
-        </classes>
+        <packages>
+            <package name=""/>
+        </packages>
     </test>
         <!--<groups>-->
             <!--&lt;!&ndash;<define name="Combination">&ndash;&gt;-->

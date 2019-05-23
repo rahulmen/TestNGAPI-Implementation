@@ -53,6 +53,14 @@
                         <argument>myproject:dist</argument>
                     </arguments>
                 </configuration>
+                <dependencies>
+
+                    <dependency>
+                        <groupId></groupId>
+                        <artifactId></artifactId>
+                        <type>jar</type>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>

@@ -2,7 +2,7 @@ package Executor;
 
 import org.testng.TestNG;
 import org.testng.xml.*;
-import scripts.ClassDemoTest;
+import scripts.Native.ClassDemoTest;
 
 import java.util.ArrayList;
 import java.util.List;
